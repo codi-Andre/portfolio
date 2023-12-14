@@ -7,7 +7,7 @@
     width="612"
   />
 
-  <p class="mt-4 text-base font-medium lg:text-lg xl:text-xl">
+  <p class="mt-4 text-base font-semibold lg:text-lg xl:text-xl">
     Olá! Meu nome é André
   </p>
 

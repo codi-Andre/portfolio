@@ -10,8 +10,10 @@
         window.matchMedia("(prefers-color-scheme: dark)").matches)
     ) {
       document.documentElement.classList.add("dark")
+      isDarkMode = true
     } else {
       document.documentElement.classList.remove("dark")
+      isDarkMode = false
     }
   })
 
@@ -27,7 +29,7 @@
 </script>
 
 <label
-  class="relative inline-block h-8 w-14 rounded-full bg-neutral-200 dark:bg-neutral-700"
+  class="relative inline-block h-8 w-14 cursor-pointer rounded-full bg-neutral-200 dark:bg-neutral-700"
   aria-label="switch theme"
 >
   <span class="sr-only">toggle theme</span>

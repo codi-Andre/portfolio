@@ -7,11 +7,11 @@
 <header class="container">
   <nav class="hidden justify-between sm:flex">
     <ul class="flex items-center gap-4" role="list">
+      <li><a href="#projects">Projetos</a></li>
+
       <li><a href="#about">Sobre</a></li>
 
       <li><a href="#featured">Destaques</a></li>
-
-      <li><a href="#projects">Projetos</a></li>
     </ul>
 
     <ul class="flex items-center gap-4" role="list">
