@@ -7,4 +7,6 @@
 <Header />
 <main class="container mb-24">
   <Services />
+
+  <Projects />
 </main>
