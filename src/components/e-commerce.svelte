@@ -1,8 +1,8 @@
 <script lang="ts">
   import TechCard from "./tech-card.svelte"
+  import reactLogo from "../assets/logos/react.svg"
   import viteLogo from "../assets/logos/vite.svg"
-  import vitestLogo from "../assets/logos/vitest.svg"
-  import solidLogo from "../assets/logos/solid.svg"
+  import tailwindLogo from "../assets/logos/tailwind-css.svg"
 </script>
 
 <div
@@ -10,21 +10,22 @@
 >
   <img
     class="row-span-6 mx-auto mb-2 w-80 rounded-xl lg:w-[30rem]"
-    src="/pomodoro-timer.png"
+    src="/e-commerce.jpg"
     alt=""
   />
 
-  <h3 class="text-base font-semibold lg:text-lg xl:text-xl">Pomodoro timer</h3>
+  <h3 class="text-base font-semibold lg:text-lg xl:text-xl">E-commerce</h3>
 
   <p class="max-w-[60ch] text-base lg:text-lg xl:text-xl">
-    Datas e horários podem ser um desafio, conhecer de antemão as ferramentas
-    para lidar com esses casos é importante.
+    Designs de websites podem ser muito complexos, ainda sim, é preciso se
+    manter fidedigno ao mesmo tempo escrevendo um código limpo e de fácil
+    manutenção.
   </p>
 
   <a
     target="_blank"
     class="text-base font-semibold lg:text-lg xl:text-xl"
-    href="https://codi-andre.github.io/pomodoro-timer/"
+    href="https://codi-andre.github.io/e-commerce/"
     >Ver projeto
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -58,15 +59,15 @@
     />
 
     <TechCard
-      logoPath={vitestLogo}
-      caption="vitest"
-      link="https://vitest.dev/"
+      logoPath={reactLogo}
+      caption="react js"
+      link="https://react.dev/"
     />
 
     <TechCard
-      logoPath={solidLogo}
-      caption="solid js"
-      link="https://www.solidjs.com/"
+      logoPath={tailwindLogo}
+      caption="tailwind"
+      link="https://tailwindcss.com/"
     />
   </div>
 </div>

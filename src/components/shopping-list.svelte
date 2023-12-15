@@ -1,30 +1,30 @@
 <script lang="ts">
   import TechCard from "./tech-card.svelte"
-  import viteLogo from "../assets/logos/vite.svg"
-  import vitestLogo from "../assets/logos/vitest.svg"
-  import solidLogo from "../assets/logos/solid.svg"
+  import nextLogo from "../assets/logos/next-js.svg"
+  import reduxLogo from "../assets/logos/redux.svg"
 </script>
 
 <div
   class="mt-12 grid max-w-max grid-cols-1 gap-x-4 lg:mt-24 lg:grid-cols-[max-content_minmax(0,_1fr)] lg:gap-y-2"
 >
   <img
-    class="row-span-6 mx-auto mb-2 w-80 rounded-xl lg:w-[30rem]"
-    src="/pomodoro-timer.png"
+    class="row-span-6 mx-auto mb-2 w-80 rounded-xl lg:col-start-2 lg:w-[30rem]"
+    src="/shopping-list.png"
     alt=""
   />
 
-  <h3 class="text-base font-semibold lg:text-lg xl:text-xl">Pomodoro timer</h3>
+  <h3 class="text-base font-semibold lg:text-lg xl:text-xl">Shopping list</h3>
 
   <p class="max-w-[60ch] text-base lg:text-lg xl:text-xl">
-    Datas e horários podem ser um desafio, conhecer de antemão as ferramentas
-    para lidar com esses casos é importante.
+    Aplicações possuem múltiplos componentes e para compartilhar seu estado
+    entre eles, algumas vezes é preciso ferramentas especializadas em
+    gerenciamento de estado.
   </p>
 
   <a
     target="_blank"
     class="text-base font-semibold lg:text-lg xl:text-xl"
-    href="https://codi-andre.github.io/pomodoro-timer/"
+    href="https://codi-shopping-list.vercel.app/"
     >Ver projeto
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -52,21 +52,14 @@
 
   <div class="mt-2 flex gap-4">
     <TechCard
-      logoPath={viteLogo}
-      caption="vite js"
-      link="https://vitejs.dev/"
+      logoPath={nextLogo}
+      caption="next js"
+      link="https://nextjs.org/"
     />
-
     <TechCard
-      logoPath={vitestLogo}
-      caption="vitest"
-      link="https://vitest.dev/"
-    />
-
-    <TechCard
-      logoPath={solidLogo}
-      caption="solid js"
-      link="https://www.solidjs.com/"
+      logoPath={reduxLogo}
+      caption="redux"
+      link="https://redux-toolkit.js.org/"
     />
   </div>
 </div>

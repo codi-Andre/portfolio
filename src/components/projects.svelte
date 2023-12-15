@@ -1,4 +1,6 @@
 <script>
+  import ECommerce from "./e-commerce.svelte"
+  import ShoppingList from "./shopping-list.svelte"
   import Timer from "./timer.svelte"
 </script>
 
@@ -8,6 +10,10 @@
     Desenvolver projetos paralelos ajuda o programador a aprender habilidades
     necessárias para lidar com os problemas do dia a dia.
   </p>
+
+  <ECommerce />
+
+  <ShoppingList />
 
   <Timer />
 </section>
