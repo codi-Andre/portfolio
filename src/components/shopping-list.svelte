@@ -5,7 +5,7 @@
 </script>
 
 <div
-  class="mt-12 grid max-w-max grid-cols-1 gap-x-4 lg:mt-24 lg:grid-cols-[max-content_minmax(0,_1fr)] lg:gap-y-2"
+  class="mt-12 grid max-w-max grid-cols-1 gap-x-4 gap-y-2 lg:mt-24 lg:grid-cols-[max-content_minmax(0,_1fr)]"
 >
   <img
     class="row-span-6 mx-auto mb-2 w-80 rounded-xl lg:col-start-2 lg:w-[30rem]"
