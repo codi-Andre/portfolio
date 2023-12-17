@@ -54,7 +54,7 @@
     {:else if tabOpen === 1}
       <ul
         role="list"
-        class="flex list-disc flex-col gap-4 text-base lg:text-lg xl:text-xl"
+        class="flex list-disc flex-col gap-4 pl-4 text-base lg:text-lg xl:text-xl"
       >
         <li>Tenho uma mente aberta a novas ideias.</li>
 

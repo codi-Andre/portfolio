@@ -44,8 +44,8 @@
 
   {#if isNavOpen}
     <ul
-      class="absolute left-0 top-0 flex h-screen w-full flex-col items-center justify-center
-       gap-4 bg-design-bg"
+      class="absolute left-0 top-0 flex h-screen w-full animate-slideIn flex-col items-center
+       justify-center gap-4 bg-design-bg"
       role="list"
     >
       <li>
@@ -88,5 +88,6 @@
   a {
     display: inline-block;
     padding: 1rem;
+    font-weight: 500;
   }
 </style>

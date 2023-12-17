@@ -4,7 +4,6 @@
   import Header from "./components/header.svelte"
   import Projects from "./components/projects.svelte"
   import Services from "./components/services.svelte"
-  import Workflow from "./components/workflow.svelte"
 </script>
 
 <Header />
@@ -14,8 +13,6 @@
   <Projects />
 
   <AboutMe />
-
-  <Workflow />
 </main>
 <footer class="container mt-20 xl:mt-40">
   <Contact />
