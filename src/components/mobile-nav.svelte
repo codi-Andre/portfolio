@@ -3,8 +3,14 @@
 
   let isNavOpen = false
 
-  function closeMenu() {
-    isNavOpen = false
+  function toggleMenu() {
+    if (isNavOpen) {
+      isNavOpen = false
+      document.body.style.overflowY = "auto"
+    } else {
+      isNavOpen = true
+      document.body.style.overflowY = "hidden"
+    }
   }
 </script>
 
@@ -14,7 +20,7 @@
   <button
     class="p-4"
     aria-label={`${isNavOpen ? "open" : "close"} navigation menu`}
-    on:click={() => (isNavOpen = !isNavOpen)}
+    on:click={toggleMenu}
   >
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -46,7 +52,7 @@
         <button
           class="absolute right-0 top-0 p-4"
           aria-label="close navigation menu"
-          on:click={closeMenu}
+          on:click={toggleMenu}
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -63,15 +69,15 @@
         </button>
       </li>
 
-      <li><a on:click={closeMenu} href="#about">Sobre</a></li>
+      <li><a on:click={toggleMenu} href="#projects">Projetos</a></li>
 
-      <li><a on:click={closeMenu} href="#featured">Destaques</a></li>
+      <li><a on:click={toggleMenu} href="#about">Sobre</a></li>
 
-      <li><a on:click={closeMenu} href="#projects">Projetos</a></li>
+      <li><a on:click={toggleMenu} href="#contact">Contato</a></li>
 
       <li>
-        <a on:click={closeMenu} href="http://www.linkedin.com/in/andre-web-dev"
-          >Contato</a
+        <a on:click={toggleMenu} href="http://www.linkedin.com/in/andre-web-dev"
+          >LinkedIn</a
         >
       </li>
     </ul>

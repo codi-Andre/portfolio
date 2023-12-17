@@ -9,9 +9,9 @@
     <ul class="flex items-center gap-4" role="list">
       <li><a href="#projects">Projetos</a></li>
 
-      <li><a href="#about">Sobre</a></li>
+      <li><a href="#about">Sobre mim</a></li>
 
-      <li><a href="#featured">Destaques</a></li>
+      <li><a href="#contact">Contato</a></li>
     </ul>
 
     <ul class="flex items-center gap-4" role="list">
@@ -20,7 +20,7 @@
       </li>
 
       <li>
-        <a href="http://www.linkedin.com/in/andre-web-dev">Contato</a>
+        <a href="http://www.linkedin.com/in/andre-web-dev">LinkedIn</a>
       </li>
     </ul>
   </nav>

@@ -1,8 +1,5 @@
 <script lang="ts">
   import TechCard from "./tech-card.svelte"
-  import viteLogo from "../assets/logos/vite.svg"
-  import vitestLogo from "../assets/logos/vitest.svg"
-  import solidLogo from "../assets/logos/solid.svg"
 </script>
 
 <div
@@ -80,19 +77,19 @@
 
   <div class="mt-2 flex gap-4">
     <TechCard
-      logoPath={viteLogo}
+      logoPath="/logos/vite.svg"
       caption="vite js"
       link="https://vitejs.dev/"
     />
 
     <TechCard
-      logoPath={vitestLogo}
+      logoPath="/logos/vitest.svg"
       caption="vitest"
       link="https://vitest.dev/"
     />
 
     <TechCard
-      logoPath={solidLogo}
+      logoPath="/logos/solid.svg"
       caption="solid js"
       link="https://www.solidjs.com/"
     />

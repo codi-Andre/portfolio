@@ -13,9 +13,9 @@
 
   <Projects />
 
-  <Workflow />
-
   <AboutMe />
+
+  <Workflow />
 </main>
 <footer class="container mt-20 xl:mt-40">
   <Contact />

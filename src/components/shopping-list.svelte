@@ -1,18 +1,10 @@
 <script lang="ts">
   import TechCard from "./tech-card.svelte"
-  import nextLogo from "../assets/logos/next-js.svg"
-  import reduxLogo from "../assets/logos/redux.svg"
 </script>
 
 <div
-  class="mt-12 grid max-w-max grid-cols-1 gap-x-4 gap-y-2 lg:mt-24 lg:grid-cols-[max-content_minmax(0,_1fr)]"
+  class="lg:grid-cols-[minmax(0, 75ch)_minmax(0,_1fr)] mt-12 grid max-w-max grid-cols-1 gap-x-4 gap-y-2 lg:mt-24"
 >
-  <img
-    class="row-span-6 mx-auto mb-2 w-80 rounded-xl lg:col-start-2 lg:w-[30rem]"
-    src="/shopping-list.png"
-    alt=""
-  />
-
   <h3 class="text-base font-semibold lg:text-lg xl:text-xl">Shopping list</h3>
 
   <p class="max-w-[60ch] text-base lg:text-lg xl:text-xl">
@@ -52,14 +44,20 @@
 
   <div class="mt-2 flex gap-4">
     <TechCard
-      logoPath={nextLogo}
+      logoPath="/logos/next-js.svg"
       caption="next js"
       link="https://nextjs.org/"
     />
     <TechCard
-      logoPath={reduxLogo}
+      logoPath="/logos/redux.svg"
       caption="redux"
       link="https://redux-toolkit.js.org/"
     />
   </div>
+
+  <img
+    class="row-start-1 row-end-7 mx-auto mb-2 w-80 rounded-xl lg:col-start-2 lg:w-[40rem]"
+    src="/shopping-list.png"
+    alt=""
+  />
 </div>

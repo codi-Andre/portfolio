@@ -11,8 +11,9 @@
     />
 
     <span
-      class="h-20 w-20 justify-self-center rounded-full bg-blue-600 lg:h-32 lg:w-32"
+      class="h-20 w-20 justify-self-center rounded-full bg-orange-400 lg:h-32 lg:w-32"
     >
+      <img src="/discuss.jpeg" alt="" />
     </span>
 
     <p class="col-start-2 text-base lg:text-lg xl:text-xl">
@@ -20,7 +21,7 @@
     </p>
 
     <span
-      class="h-20 w-20 justify-self-center rounded-full bg-blue-600 lg:h-32 lg:w-32"
+      class="h-20 w-20 justify-self-center rounded-full bg-orange-400 lg:h-32 lg:w-32"
     >
     </span>
 
@@ -29,17 +30,17 @@
     </p>
 
     <span
-      class="h-20 w-20 justify-self-center rounded-full bg-blue-600 lg:h-32 lg:w-32"
+      class="h-20 w-20 justify-self-center rounded-full bg-orange-400 lg:h-32 lg:w-32"
     >
     </span>
 
     <p class="col-start-2 max-w-[60ch] text-base lg:text-lg xl:text-xl">
       Criar instruções detalhadas passo a passo de como resolver as partes,
-      temos uma palavra sofisticada para definir isso, chama-se algoritmo
+      temos uma palavra para definir isso, chama-se algoritmo
     </p>
 
     <span
-      class="h-20 w-20 justify-self-center rounded-full bg-blue-600 lg:h-32 lg:w-32"
+      class="h-20 w-20 justify-self-center rounded-full bg-orange-400 lg:h-32 lg:w-32"
     >
     </span>
 

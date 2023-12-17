@@ -1,15 +1,12 @@
 <script lang="ts">
   import TechCard from "./tech-card.svelte"
-  import reactLogo from "../assets/logos/react.svg"
-  import viteLogo from "../assets/logos/vite.svg"
-  import tailwindLogo from "../assets/logos/tailwind-css.svg"
 </script>
 
 <div
   class="mt-12 grid max-w-max grid-cols-1 gap-x-4 gap-y-2 lg:mt-24 lg:grid-cols-[max-content_minmax(0,_1fr)]"
 >
   <img
-    class="row-span-6 mx-auto mb-2 w-80 rounded-xl lg:w-[30rem]"
+    class="row-span-6 mx-auto mb-2 w-80 rounded-xl lg:w-[40rem]"
     src="/e-commerce.jpg"
     alt=""
   />
@@ -82,19 +79,19 @@
 
   <div class="mt-2 flex gap-4">
     <TechCard
-      logoPath={viteLogo}
+      logoPath="/logos/vite.svg"
       caption="vite js"
       link="https://vitejs.dev/"
     />
 
     <TechCard
-      logoPath={reactLogo}
+      logoPath="/logos/react.svg"
       caption="react js"
       link="https://react.dev/"
     />
 
     <TechCard
-      logoPath={tailwindLogo}
+      logoPath="/logos/tailwind-css.svg"
       caption="tailwind"
       link="https://tailwindcss.com/"
     />
