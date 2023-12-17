@@ -1,5 +1,8 @@
 <script lang="ts">
   import TechCard from "./tech-card.svelte"
+  import nextIcon from "../assets/logos/next-js.svg"
+  import reduxIcon from "../assets/logos/redux.svg"
+  import shoppingImg from "../assets/shopping-list.png"
 </script>
 
 <div
@@ -44,12 +47,12 @@
 
   <div class="mt-2 flex gap-4">
     <TechCard
-      logoPath="/logos/next-js.svg"
+      logoPath={nextIcon}
       caption="next js"
       link="https://nextjs.org/"
     />
     <TechCard
-      logoPath="/logos/redux.svg"
+      logoPath={reduxIcon}
       caption="redux"
       link="https://redux-toolkit.js.org/"
     />
@@ -57,7 +60,7 @@
 
   <img
     class="row-start-1 row-end-7 mx-auto mb-2 w-80 rounded-xl lg:col-start-2 lg:w-[40rem]"
-    src="/shopping-list.png"
+    src={shoppingImg}
     alt=""
   />
 </div>

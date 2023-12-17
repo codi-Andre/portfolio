@@ -1,7 +1,11 @@
+<script lang="ts">
+  import profileImg from "../assets/profile.png"
+</script>
+
 <section class="mx-auto mt-20 max-w-max lg:mt-40">
   <img
     class="circle-effect mx-auto h-64 w-64 md:float-left md:mx-12"
-    src="/profile.png"
+    src={profileImg}
     alt="foto de perfil"
     height="612"
     width="612"

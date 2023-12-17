@@ -1,5 +1,9 @@
 <script lang="ts">
   import TechCard from "./tech-card.svelte"
+  import viteIcon from "../assets/logos/vite.svg"
+  import reactIcon from "../assets/logos/react.svg"
+  import tailwindIcon from "../assets/logos/tailwind-css.svg"
+  import eCommerceImg from "../assets/e-commerce.jpg"
 </script>
 
 <div
@@ -7,7 +11,7 @@
 >
   <img
     class="row-span-6 mx-auto mb-2 w-80 rounded-xl lg:w-[40rem]"
-    src="/e-commerce.jpg"
+    src={eCommerceImg}
     alt=""
   />
 
@@ -79,19 +83,19 @@
 
   <div class="mt-2 flex gap-4">
     <TechCard
-      logoPath="/logos/vite.svg"
+      logoPath={viteIcon}
       caption="vite js"
       link="https://vitejs.dev/"
     />
 
     <TechCard
-      logoPath="/logos/react.svg"
+      logoPath={reactIcon}
       caption="react js"
       link="https://react.dev/"
     />
 
     <TechCard
-      logoPath="/logos/tailwind-css.svg"
+      logoPath={tailwindIcon}
       caption="tailwind"
       link="https://tailwindcss.com/"
     />

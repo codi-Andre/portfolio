@@ -1,5 +1,18 @@
 <script lang="ts">
   import TechCard from "./tech-card.svelte"
+  import cssIcon from "../assets/logos/css.svg"
+  import gitIcon from "../assets/logos/git.svg"
+  import htmlIcon from "../assets/logos/html.svg"
+  import javascriptIcon from "../assets/logos/javascript.svg"
+  import nextIcon from "../assets/logos/next-js.svg"
+  import reactIcon from "../assets/logos/react.svg"
+  import reduxIcon from "../assets/logos/redux.svg"
+  import solidIcon from "../assets/logos/solid.svg"
+  import svelteIcon from "../assets/logos/svelte.svg"
+  import tailwindIcon from "../assets/logos/tailwind-css.svg"
+  import typescriptIcon from "../assets/logos/typescript.svg"
+  import viteIcon from "../assets/logos/vite.svg"
+  import vitestIcon from "../assets/logos/vitest.svg"
 
   let tabOpen = 0
 </script>
@@ -85,7 +98,7 @@
   >
     <li>
       <TechCard
-        logoPath="/logos/svelte.svg"
+        logoPath={svelteIcon}
         caption="svelte"
         link="https://svelte.dev/"
       />
@@ -93,7 +106,7 @@
 
     <li>
       <TechCard
-        logoPath="/logos/typescript.svg"
+        logoPath={typescriptIcon}
         caption="typescript"
         link="https://www.typescriptlang.org/"
       />
@@ -101,7 +114,7 @@
 
     <li>
       <TechCard
-        logoPath="/logos/tailwind-css.svg"
+        logoPath={tailwindIcon}
         caption="tailwind"
         link="https://tailwindcss.com/"
       />
@@ -109,7 +122,7 @@
 
     <li>
       <TechCard
-        logoPath="/logos/vite.svg"
+        logoPath={viteIcon}
         caption="vite js"
         link="https://vitejs.dev/"
       />
@@ -117,7 +130,7 @@
 
     <li>
       <TechCard
-        logoPath="/logos/vitest.svg"
+        logoPath={vitestIcon}
         caption="vitest"
         link="https://vitest.dev/"
       />
@@ -125,7 +138,7 @@
 
     <li>
       <TechCard
-        logoPath="/logos/solid.svg"
+        logoPath={solidIcon}
         caption="solid js"
         link="https://www.solidjs.com/"
       />
@@ -133,7 +146,7 @@
 
     <li>
       <TechCard
-        logoPath="/logos/react.svg"
+        logoPath={reactIcon}
         caption="native"
         link="https://reactnative.dev/"
       />
@@ -141,7 +154,7 @@
 
     <li>
       <TechCard
-        logoPath="/logos/react.svg"
+        logoPath={reactIcon}
         caption="react"
         link="https://react.dev/"
       />
@@ -149,7 +162,7 @@
 
     <li>
       <TechCard
-        logoPath="/logos/next-js.svg"
+        logoPath={nextIcon}
         caption="next js"
         link="https://nextjs.org/"
       />
@@ -157,23 +170,19 @@
 
     <li>
       <TechCard
-        logoPath="/logos/redux.svg"
+        logoPath={reduxIcon}
         caption="redux"
         link="https://redux-toolkit.js.org/"
       />
     </li>
 
     <li>
-      <TechCard
-        logoPath="/logos/git.svg"
-        caption="git"
-        link="https://git-scm.com/"
-      />
+      <TechCard logoPath={gitIcon} caption="git" link="https://git-scm.com/" />
     </li>
 
     <li>
       <TechCard
-        logoPath="/logos/html.svg"
+        logoPath={htmlIcon}
         caption="html"
         link="https://developer.mozilla.org/en-US/docs/Web/HTML"
       />
@@ -181,7 +190,7 @@
 
     <li>
       <TechCard
-        logoPath="/logos/css.svg"
+        logoPath={cssIcon}
         caption="css"
         link="https://developer.mozilla.org/en-US/docs/Web/CSS"
       />
@@ -189,7 +198,7 @@
 
     <li>
       <TechCard
-        logoPath="/logos/javascript.svg"
+        logoPath={javascriptIcon}
         caption="javascript"
         link="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
       />

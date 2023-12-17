@@ -1,5 +1,9 @@
 <script lang="ts">
   import TechCard from "./tech-card.svelte"
+  import viteIcon from "../assets/logos/vite.svg"
+  import vitestIcon from "../assets/logos/vitest.svg"
+  import solidIcon from "../assets/logos/solid.svg"
+  import timerImg from "../assets/pomodoro-timer.png"
 </script>
 
 <div
@@ -7,7 +11,7 @@
 >
   <img
     class="row-span-6 mx-auto mb-2 w-80 rounded-xl lg:w-[30rem]"
-    src="/pomodoro-timer.png"
+    src={timerImg}
     alt=""
   />
 
@@ -77,19 +81,19 @@
 
   <div class="mt-2 flex gap-4">
     <TechCard
-      logoPath="/logos/vite.svg"
+      logoPath={viteIcon}
       caption="vite js"
       link="https://vitejs.dev/"
     />
 
     <TechCard
-      logoPath="/logos/vitest.svg"
+      logoPath={vitestIcon}
       caption="vitest"
       link="https://vitest.dev/"
     />
 
     <TechCard
-      logoPath="/logos/solid.svg"
+      logoPath={solidIcon}
       caption="solid js"
       link="https://www.solidjs.com/"
     />
