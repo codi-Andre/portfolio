@@ -1,9 +1,10 @@
 /* @refresh reload */
-import { render } from 'solid-js/web'
+import { render } from "solid-js/web"
 
-import './index.css'
-import App from './App'
+import "./styles/modern-normalize-tw.css"
+import "./styles/index.css"
+import App from "./app"
 
-const root = document.getElementById('root')
+const root = document.getElementById("root")
 
 render(() => <App />, root!)
