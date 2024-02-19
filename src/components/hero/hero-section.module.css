@@ -1,0 +1,40 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  margin-inline: auto;
+}
+
+.profile-pic {
+  margin-inline: auto;
+}
+
+.wrapper {
+  margin-inline: auto;
+}
+
+.title {
+  font-weight: 700;
+}
+
+.subtitle {
+  font-weight: 700;
+  margin-top: 2rem;
+}
+
+.description {
+  margin-top: 1rem;
+  max-width: 70ch;
+}
+
+@media (min-width: 768px) {
+  .section {
+    margin-top: 3rem;
+    max-width: 50rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section {
+    margin-top: 6rem;
+  }
+}
