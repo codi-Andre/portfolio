@@ -1,0 +1,64 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+}
+
+.cta-button {
+  background-color: blueviolet;
+  color: antiquewhite;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+
+  padding: 0.5rem;
+  border-radius: 9999px;
+}
+
+.cta-title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.cta-icon {
+  height: 2rem;
+  width: 2rem;
+}
+
+@media (min-width: 768px) {
+  .cta-button {
+    padding: 0.25rem 1.25rem 0.5rem;
+    position: static;
+  }
+
+  .cta-title {
+    position: static;
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    clip: auto;
+    white-space: normal;
+  }
+
+  .cta-icon {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+}

@@ -1,0 +1,21 @@
+.nav {
+  display: none;
+}
+
+.list {
+  display: flex;
+  gap: 3rem;
+  padding-block: 0.5rem;
+}
+
+.link {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  padding: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .nav {
+    display: flex;
+  }
+}
