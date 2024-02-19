@@ -12,7 +12,7 @@ export function MobileNav() {
         class={styles["menu-button"]}
         aria-label="toggle menu"
       >
-        <MenuIcon class={styles["menu-icon"]} />
+        <MenuIcon class="icon-lg" />
       </button>
 
       <Show when={isMenuOpen()}>

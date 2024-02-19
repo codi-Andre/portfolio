@@ -16,7 +16,7 @@
 
 .menu {
   animation: 0.3s linear slideLeft;
-  background-color: #262626;
+  background-color: var(--secondary800);
 
   display: flex;
   align-items: center;
@@ -40,11 +40,6 @@
   right: 1rem;
   top: 1rem;
   z-index: 20;
-}
-
-.menu-icon {
-  height: 2rem;
-  width: 2rem;
 }
 
 .link {
