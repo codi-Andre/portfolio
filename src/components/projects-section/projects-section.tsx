@@ -1,3 +1,4 @@
+import { DesignProject } from "../design-project/design-project"
 import { StoreProject } from "../store-project/store-project"
 import styles from "./projects-section.module.css"
 
@@ -12,6 +13,8 @@ export function ProjectsSection() {
       </p>
 
       <StoreProject />
+
+      <DesignProject />
     </section>
   )
 }
