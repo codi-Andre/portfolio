@@ -1,5 +1,6 @@
 import { Header } from "./components/header/header"
 import { HeroSection } from "./components/hero-section/hero-section"
+import { ProjectsSection } from "./components/projects-section/projects-section"
 
 function App() {
   return (
@@ -7,6 +8,8 @@ function App() {
       <Header />
       <main class="container">
         <HeroSection />
+
+        <ProjectsSection />
       </main>
     </>
   )
