@@ -1,0 +1,38 @@
+.section {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 1rem;
+
+  margin-top: 3rem;
+}
+
+.left-col {
+  justify-self: end;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-block: 0.5rem 1rem;
+}
+
+.title {
+  font-weight: 700;
+}
+
+.description {
+  margin-top: 1rem;
+  max-width: 60ch;
+  text-wrap: pretty;
+}
+
+@media (min-width: 768px) {
+  .section {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .right-col {
+    margin-left: 4rem;
+  }
+}
