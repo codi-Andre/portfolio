@@ -1,0 +1,28 @@
+.section {
+  margin-block: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+}
+
+.cta {
+  font-weight: 700;
+}
+
+.social {
+  display: flex;
+}
+
+.link {
+  padding: 0.5rem;
+}
+
+.link img {
+  object-fit: scale-down;
+}
+
+.github-icon {
+  color: white;
+}
