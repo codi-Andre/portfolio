@@ -10,7 +10,7 @@ export function Header() {
       <DesktopNav />
 
       <a
-        class={styles["cta-button"]}
+        class={`${styles["cta-button"]} text-xl`}
         href="https://www.linkedin.com/in/andre-web-dev"
       >
         <span class={styles["cta-title"]}>Fale comigo</span>

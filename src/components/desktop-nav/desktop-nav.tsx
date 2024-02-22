@@ -3,7 +3,7 @@ import styles from "./desktop-nav.module.css"
 export function DesktopNav() {
   return (
     <nav class={styles.nav}>
-      <ul class={styles.list}>
+      <ul class={`${styles.list} text-xl`}>
         <li>
           <a class={styles.link} href="#projects">
             Projetos

@@ -5,7 +5,7 @@ export function DesignProject() {
   return (
     <div class={styles.container}>
       <div class={styles.wrapper}>
-        <h3 class={`${styles.title} text-xl`}>E-commerce e Pomodoro timer</h3>
+        <h3 class={`${styles.title} text-2xl`}>E-commerce e Pomodoro timer</h3>
 
         <p class={styles.description}>
           Dando vida ao design das pessoas, ambos os projetos seguem

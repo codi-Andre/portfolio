@@ -18,19 +18,31 @@ export function MobileNav() {
       <Show when={isMenuOpen()}>
         <ul class={styles.menu}>
           <li>
-            <a class={styles.link} href="#projects">
+            <a
+              onClick={() => setIsMenuOpen(false)}
+              class={styles.link}
+              href="#projects"
+            >
               Projetos
             </a>
           </li>
 
           <li>
-            <a class={styles.link} href="#about">
+            <a
+              onClick={() => setIsMenuOpen(false)}
+              class={styles.link}
+              href="#about"
+            >
               Sobre
             </a>
           </li>
 
           <li>
-            <a class={styles.link} href="#contact">
+            <a
+              onClick={() => setIsMenuOpen(false)}
+              class={styles.link}
+              href="#contact"
+            >
               Contato
             </a>
           </li>

@@ -14,7 +14,7 @@ export function HeroSection() {
       <div class={styles.wrapper}>
         <p class={`${styles.subtitle}`}>Olá meu nome é André,</p>
 
-        <h1 class={`${styles.title} text-4xl`}>Desenvolvedor Front-end,</h1>
+        <h1 class={`${styles.title} text-5xl`}>Desenvolvedor Front-end,</h1>
 
         <p class={styles.description}>
           eu construo websites e aplicativos web com lindas e amigáveis

@@ -13,7 +13,9 @@ export function AboutSection() {
   return (
     <section class={styles.section}>
       <div class={styles["left-col"]}>
-        <h2 class={`${styles.title} text-xl`}>Um pouco sobre mim...</h2>
+        <h2 id="about" class={`${styles.title} text-2xl`}>
+          Um pouco sobre mim...
+        </h2>
 
         <p class={styles.description}>
           Tive a oportunidade de ser orientado por uma pessoa com muito talento
@@ -30,7 +32,7 @@ export function AboutSection() {
       </div>
 
       <div class={styles["right-col"]}>
-        <h3 class={`${styles.title} text-xl`}>Linguagens</h3>
+        <h3 class={`${styles.title} text-2xl`}>Linguagens</h3>
         <ul class={styles.list}>
           <li>
             <SkillCard image={jsIcon} title="Javascript" />
@@ -46,7 +48,7 @@ export function AboutSection() {
           </li>
         </ul>
 
-        <h3 class={`${styles.title} text-xl`}>Frameworks</h3>
+        <h3 class={`${styles.title} text-2xl`}>Frameworks</h3>
 
         <ul class={styles.list}>
           <li>
@@ -57,7 +59,7 @@ export function AboutSection() {
           </li>
         </ul>
 
-        <h3 class={`${styles.title} text-xl`}>Outras tecnologias</h3>
+        <h3 class={`${styles.title} text-2xl`}>Outras tecnologias</h3>
 
         <ul class={styles.list}>
           <li>

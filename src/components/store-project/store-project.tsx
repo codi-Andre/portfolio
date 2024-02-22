@@ -14,7 +14,7 @@ export function StoreProject() {
       />
 
       <div class={styles.wrapper}>
-        <h3 class={`${styles.title} text-xl`}>Online store</h3>
+        <h3 class={`${styles.title} text-2xl`}>Online store</h3>
 
         <p class={styles.description}>
           Uma loja online com um visual vibrante, com busca de produtos, pagina
