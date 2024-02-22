@@ -1,11 +1,12 @@
 import styles from "./hero-section.module.css"
+import profileImg from "../../assets/images/profile.webp"
 
 export function HeroSection() {
   return (
     <section class={styles.section}>
       <img
         class={styles["profile-pic"]}
-        src="/profile.webp"
+        src={profileImg}
         alt="profile"
         height={240}
         width={240}

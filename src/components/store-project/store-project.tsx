@@ -1,5 +1,6 @@
 import { NewTabIcon } from "../../assets/icons/new-tab-icon"
 import styles from "./store-project.module.css"
+import storeImg from "../../assets/images/store.webp"
 
 export function StoreProject() {
   return (
@@ -7,7 +8,7 @@ export function StoreProject() {
       <img
         class={styles.img}
         loading="lazy"
-        src="/store.webp"
+        src={storeImg}
         alt=""
         height={480}
         width={640}

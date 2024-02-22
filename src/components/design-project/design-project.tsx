@@ -1,5 +1,6 @@
 import { NewTabIcon } from "../../assets/icons/new-tab-icon"
 import styles from "./design-project.module.css"
+import designImg from "../../assets/images/design.webp"
 
 export function DesignProject() {
   return (
@@ -58,7 +59,7 @@ export function DesignProject() {
       <img
         class={styles.img}
         loading="lazy"
-        src="/design.webp"
+        src={designImg}
         alt=""
         height={480}
         width={640}
