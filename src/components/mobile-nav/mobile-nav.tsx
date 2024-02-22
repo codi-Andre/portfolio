@@ -5,10 +5,20 @@ import styles from "./mobile-nav.module.css"
 export function MobileNav() {
   const [isMenuOpen, setIsMenuOpen] = createSignal(false)
 
+  function handleMenu() {
+    if (isMenuOpen()) {
+      document.body.style.overflowY = "auto"
+    } else {
+      document.body.style.overflowY = "hidden"
+    }
+
+    setIsMenuOpen((state) => !state)
+  }
+
   return (
     <nav class={styles.nav}>
       <button
-        onClick={() => setIsMenuOpen((state) => !state)}
+        onClick={() => handleMenu()}
         class={styles["menu-button"]}
         aria-label="toggle menu"
       >
@@ -19,7 +29,7 @@ export function MobileNav() {
         <ul class={styles.menu}>
           <li>
             <a
-              onClick={() => setIsMenuOpen(false)}
+              onClick={() => handleMenu()}
               class={styles.link}
               href="#projects"
             >
@@ -28,21 +38,13 @@ export function MobileNav() {
           </li>
 
           <li>
-            <a
-              onClick={() => setIsMenuOpen(false)}
-              class={styles.link}
-              href="#about"
-            >
+            <a onClick={() => handleMenu()} class={styles.link} href="#about">
               Sobre
             </a>
           </li>
 
           <li>
-            <a
-              onClick={() => setIsMenuOpen(false)}
-              class={styles.link}
-              href="#contact"
-            >
+            <a onClick={() => handleMenu()} class={styles.link} href="#contact">
               Contato
             </a>
           </li>
